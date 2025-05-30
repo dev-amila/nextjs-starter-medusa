@@ -22,3 +22,5 @@ export type StoreFreeShippingPrice = StorePrice & {
   target_remaining: number
   remaining_percentage: number
 }
+
+

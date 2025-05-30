@@ -2,6 +2,25 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@layer base {
+  :root {
+    --primary-orange: #F47920;
+    --primary-blue: #262261;
+
+    --nutral-light: #F4F4F8;
+    --nutral-dark: #1E1E2F;
+    --nutral-gray: #A0A0B2;
+
+    --accent-cyan: #20C5F4;
+    --accent-lavender: #7A62FF;
+    --accent-peach: #FFB672;
+
+    --vibrant-teal: #26A69A;
+    --vibrant-red: #26A69A;
+    --vibrant-yellow: #26A69A;
+  }
+}
+
 @layer utilities {
   /* Chrome, Safari and Opera */
   .no-scrollbar::-webkit-scrollbar {
